@@ -1,0 +1,16 @@
+.tools {
+    display: flex;
+    
+    fieldset {
+        border: none;
+        text-align: center;
+    }
+
+    fieldset:first-of-type div:first-of-type {
+        color: red;
+    }
+
+    div {
+        font-size: 4rem;
+    }
+}
